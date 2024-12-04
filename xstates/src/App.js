@@ -84,7 +84,7 @@ function App() {
       </select>
       {selectedCity !== "Select city" && (
   <div>
-    <h3>You selected {`${selectedCountry}, ${selectedState}, ${selectedCity}`}</h3>
+    <h3>You selected {`${selectedCity}, ${selectedState}, ${selectedCountry}`}</h3>
   </div>
 )}
     </div>
